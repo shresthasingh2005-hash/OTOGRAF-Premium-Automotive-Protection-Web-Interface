@@ -90,7 +90,7 @@ No build tools or dependencies required — pure HTML/CSS/JS.
 ## 👤 Author
 
 **Shrestha Singh**
-- GitHub: [@YOUR_USERNAME]([https://github.com/YOUR_USERNAME](https://github.com/shresthasingh2005-hash))
+- GitHub: (https://github.com/shresthasingh2005-hash))
 
 
 ---
