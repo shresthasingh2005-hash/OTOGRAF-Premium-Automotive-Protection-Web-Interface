@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTOGRAF® — Premium Paint Protection Film & Ceramic Coating</title>
+    <meta name="description"
+        content="OTOGRAF® delivers industry-leading, self-healing invisible paint protection films and ceramic coatings. Founded in Hong Kong. Offices in India, China & South Korea.">
+    <meta property="og:title" content="OTOGRAF® — Invisible Paint Protection">
+    <meta property="og:description"
+        content="Pioneers in automotive styling, protection and detailing. Premium PPF and ceramic coating solutions worldwide.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <header id="main-header">
+        <div class="nav-inner">
+            <!-- OTOGRAF Original Logo (SVG recreation with target-dot O's and crossbar-less A) -->
+            <a href="#hero" class="nav-logo" aria-label="OTOGRAF Home">
+                <svg viewBox="0 0 320 40" fill="currentColor" class="logo-svg">
+                    <!-- O with dot -->
+                    <circle cx="18" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3.5" />
+                    <circle cx="18" cy="20" r="5" fill="currentColor" />
+                    <!-- T -->
+                    <rect x="42" y="4" width="3.5" height="32" rx="0.5" />
+                    <rect x="33" y="4" width="22" height="3.5" rx="0.5" />
+                    <!-- O with dot -->
+                    <circle cx="73" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3.5" />
+                    <circle cx="73" cy="20" r="5" fill="currentColor" />
+                    <!-- G -->
+                    <path
+                        d="M108,12 A16,16 0 1,0 108,28 L108,22 L98,22 L98,25.5 L104.5,25.5 A12.5,12.5 0 1,1 104.5,14.5 L107,9"
+                        fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" />
+                    <!-- R -->
+                    <rect x="120" y="4" width="3.5" height="32" rx="0.5" />
+                    <path d="M123.5,4 L134,4 A9,9 0 0,1 134,22 L123.5,22" fill="none" stroke="currentColor"
+                        stroke-width="3.5" />
+                    <line x1="130" y1="20" x2="140" y2="36" stroke="currentColor" stroke-width="3.5"
+                        stroke-linecap="round" />
+                    <!-- A (no crossbar) -->
+                    <path d="M150,36 L163,4 L176,36" fill="none" stroke="currentColor" stroke-width="3.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <!-- F -->
+                    <rect x="184" y="4" width="3.5" height="32" rx="0.5" />
+                    <rect x="184" y="4" width="20" height="3.5" rx="0.5" />
+                    <rect x="184" y="18" width="16" height="3" rx="0.5" />
+                    <!-- ® -->
+                    <circle cx="214" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="1" />
+                    <text x="214" y="13" text-anchor="middle" font-size="8" font-weight="700"
+                        fill="currentColor">R</text>
+                </svg>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About Us</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-dropdown-trigger" id="products-trigger">Products <svg viewBox="0 0 12 12"
+                            width="10" height="10" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 5l3 3 3-3" />
+                        </svg></a>
+                    <div class="nav-dropdown-menu" id="products-menu">
+                        <div class="dropdown-section">
+                            <h4>Paint Protection Film</h4>
+                            <a href="#product-penta" class="dropdown-item">Penta Guard <span>5-Year</span></a>
+                            <a href="#product-hepta" class="dropdown-item">Hepta Guard <span>7-Year</span></a>
+                            <a href="#product-octa" class="dropdown-item">Octa Guard <span>8-Year</span></a>
+                            <a href="#product-deca" class="dropdown-item">Deca Guard <span>10-Year</span></a>
+                        </div>
+                        <div class="dropdown-section">
+                            <h4>Ceramic Coating</h4>
+                            <a href="#product-cera" class="dropdown-item">Cera Guard <span>2-Year</span></a>
+                            <a href="#product-graph" class="dropdown-item">Graph Guard <span>3-Year</span></a>
+                            <a href="#product-boro" class="dropdown-item">Boro Guard <span>4-Year</span></a>
+                        </div>
+                        <div class="dropdown-section">
+                            <h4>Specialty</h4>
+                            <a href="#contact" class="dropdown-item">Vinyl Dip <span>Custom</span></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#ewarranty">E-Warranty</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-cta">Get a Quote</a>
+            <button class="nav-hamburger" id="hamburger-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+        <a href="#hero">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products-ppf">PPF Products</a>
+        <a href="#products-coating">Coatings</a>
+        <a href="#ewarranty">E-Warranty</a>
+        <a href="#contact" class="mobile-menu-cta">Get a Quote</a>
+    </div>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero">
+        <div class="hero-media">
+            <video class="hero-video" autoplay muted loop playsinline
+                poster="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920">
+                <source src="https://videos.pexels.com/video-files/3045163/3045163-hd_1920_1080_24fps.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="hero-poster"
+                style="background-image:url('https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920')">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <!-- Large hero logo -->
+            <div class="hero-logo-wrap">
+                <svg viewBox="0 0 320 40" fill="currentColor" class="hero-logo-svg">
+                    <circle cx="18" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" />
+                    <circle cx="18" cy="20" r="5" fill="currentColor" />
+                    <rect x="42" y="4" width="3.5" height="32" rx="0.5" />
+                    <rect x="33" y="4" width="22" height="3.5" rx="0.5" />
+                    <circle cx="73" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" />
+                    <circle cx="73" cy="20" r="5" fill="currentColor" />
+                    <path
+                        d="M108,12 A16,16 0 1,0 108,28 L108,22 L98,22 L98,25.5 L104.5,25.5 A12.5,12.5 0 1,1 104.5,14.5 L107,9"
+                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                    <rect x="120" y="4" width="3.5" height="32" rx="0.5" />
+                    <path d="M123.5,4 L134,4 A9,9 0 0,1 134,22 L123.5,22" fill="none" stroke="currentColor"
+                        stroke-width="3" />
+                    <line x1="130" y1="20" x2="140" y2="36" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" />
+                    <path d="M150,36 L163,4 L176,36" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    <rect x="184" y="4" width="3.5" height="32" rx="0.5" />
+                    <rect x="184" y="4" width="20" height="3.5" rx="0.5" />
+                    <rect x="184" y="18" width="16" height="3" rx="0.5" />
+                    <circle cx="214" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="1" />
+                    <text x="214" y="13" text-anchor="middle" font-size="8" font-weight="700"
+                        fill="currentColor">R</text>
+                </svg>
+            </div>
+            <p class="hero-tagline">ULTIMATE INVISIBLE DEFENCE</p>
+            <p class="hero-sub">Self-healing paint protection film & ceramic coatings<br>for the world's finest
+                automobiles.</p>
+            <div class="hero-actions">
+                <a href="#services" class="hero-cta-primary">Explore Protection</a>
+                <a href="#contact" class="hero-cta-secondary">Get a Quote</a>
+            </div>
+        </div>
+        <div class="hero-scroll-hint"><span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES — 3 pillars ==================== -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">What We Do</div>
+                <h2 class="section-title">Protection<br>Perfected.</h2>
+            </div>
+            <div class="services-grid stagger-children">
+                <div class="service-card reveal">
+                    <div class="card-bg"
+                        style="background-image:url('https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-number">01</div>
+                        <h3 class="card-title">Paint Protection Film</h3>
+                        <p class="card-desc">Industry-leading, self-healing invisible shield. Defends against chips,
+                            scratches, abrasive dust, and environmental contaminants.</p>
+                        <a href="#products-ppf" class="card-arrow">View PPF Range <svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="card-bg"
+                        style="background-image:url('https://images.pexels.com/photos/3136673/pexels-photo-3136673.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-number">02</div>
+                        <h3 class="card-title">Ceramic Coating</h3>
+                        <p class="card-desc">Cutting-edge 9H+ hardness coating. Oxidation resistant, ultra-hydrophobic,
+                            and delivers an unmatched lustrous finish.</p>
+                        <a href="#products-coating" class="card-arrow">View Coatings <svg viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="card-bg"
+                        style="background-image:url('https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800')">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-content">
+                        <div class="card-number">03</div>
+                        <h3 class="card-title">Colour PPF & Vinyl Dip</h3>
+                        <p class="card-desc">PPF protection combined with stunning colours and finishes. Transform and
+                            protect in one application.</p>
+                        <a href="#contact" class="card-arrow">Talk to Sales <svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TRUST STRIP ==================== -->
+    <section id="trust-strip">
+        <div class="container">
+            <div class="trust-grid stagger-children">
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                            <path d="M12 6v6l4 2" />
+                        </svg></div>
+                    <div class="trust-label">Self-Healing</div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg></div>
+                    <div class="trust-label">Stain-Proof</div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M8 12l2 2 4-4" />
+                        </svg></div>
+                    <div class="trust-label">Clear Forever</div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg></div>
+                    <div class="trust-label">Quality Guarantee</div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <polyline points="17 1 21 5 17 9" />
+                            <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+                            <polyline points="7 23 3 19 7 15" />
+                            <path d="M21 13v2a4 4 0 0 1-4 4H3" />
+                        </svg></div>
+                    <div class="trust-label">Easy to Remove</div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.604.852 1.003 1.51 1H21a2 2 0 0 1 0 4h-.09c-.658.003-1.25.402-1.51 1z" />
+                        </svg></div>
+                    <div class="trust-label">World-Class Tech</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual reveal-left">
+                    <img src="https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=800"
+                        alt="Automotive detailing craftsmanship" class="about-image" loading="lazy">
+                    <div class="about-image-accent"></div>
+                </div>
+                <div class="about-text reveal-right">
+                    <div class="section-label">Our Heritage</div>
+                    <div class="about-quote">Pioneers In<br>Automotive Styling,<br><span
+                            class="text-gradient">Protection & Detailing.</span></div>
+                    <p class="about-story">Founded in Hong Kong, we've committed ourselves to an unwavering mission: to
+                        provide the absolute best products, services, and support for professional installers worldwide.
+                    </p>
+                    <p class="about-story">Our philosophy is simple yet profound: if it runs on four wheels, we can
+                        style it to make it unique, protect it to make it last for years, and detail it so that it
+                        always looks showroom fresh.</p>
+                    <p class="about-story" style="font-weight:500;color:var(--text-primary);">When you choose Otograf,
+                        you're partnering with a brand synonymous with excellence, credibility, and enduring automotive
+                        perfection.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="stat-number" data-count="4">0</div>
+                            <div class="stat-label">Global Offices</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="stat-number" data-count="10">0</div>
+                            <div class="stat-label">Year Max Warranty</div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-label">Product Lines</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== REVIEWS ==================== -->
+    <section id="reviews">
+        <div class="container">
+            <div class="section-header reveal" style="text-align:center;">
+                <div class="section-label" style="justify-content:center;">Hear From Our Partners</div>
+                <h2 class="section-title">Trusted<br>Worldwide.</h2>
+            </div>
+            <div class="reviews-showcase">
+                <div class="review-card review-card-main reveal-scale">
+                    <div class="review-quote-mark">"</div>
+                    <blockquote class="review-text">Partnering with OTOGRAF has been a game-changer for my business. Our
+                        customers absolutely love the quality and durability. Their support team is incredibly
+                        responsive, and they genuinely feel part of my team.</blockquote>
+                    <div class="review-author-row">
+                        <div class="review-avatar">MJ</div>
+                        <div>
+                            <div class="review-author">Mehnat Joshi</div>
+                            <div class="review-role">Car & Bike Shine, Dubai</div>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-side-cards">
+                    <div class="review-card review-card-small reveal">
+                        <div class="review-stars">★★★★★</div>
+                        <blockquote class="review-text">The Deca Guard 10-year PPF is incredible. Crystal clear,
+                            self-healing, and our clients keep coming back.</blockquote>
+                        <div class="review-author">Premium Detailer</div>
+                        <div class="review-role">Professional Installer</div>
+                    </div>
+                    <div class="review-card review-card-small reveal">
+                        <div class="review-stars">★★★★★</div>
+                        <blockquote class="review-text">Boro Guard coating with 9H+ hardness — nothing else compares.
+                            The mirror-like finish sells itself.</blockquote>
+                        <div class="review-author">Auto Shield Pro</div>
+                        <div class="review-role">Certified Partner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== E-WARRANTY ==================== -->
+    <section id="ewarranty">
+        <div class="container">
+            <div class="ewarranty-banner reveal-scale">
+                <div class="ewarranty-content">
+                    <div class="section-label">Digital Protection</div>
+                    <h2 class="ewarranty-title">E-Warranty<br>Registration</h2>
+                    <p class="ewarranty-desc">Every OTOGRAF product comes with a comprehensive digital warranty.
+                        Register your installation for complete peace of mind and verified protection coverage.</p>
+                    <a href="https://myotograf.com/e-warranty/" target="_blank" class="ewarranty-btn">Register Warranty
+                        →</a>
+                </div>
+                <div class="ewarranty-visual">
+                    <div class="warranty-badge">
+                        <span class="warranty-years">10</span>
+                        <span class="warranty-text">YEAR<br>WARRANTY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper reveal-scale">
+                <div class="contact-info-side">
+                    <div class="section-label">Get Started</div>
+                    <h2 class="contact-title">Take Your PPF Service<br>To The Next Level.</h2>
+                    <p class="contact-subtitle">Offer your customers the latest and best in paint protection films.
+                        Enter the details to get a customised quote.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                            <div><strong>India Sales</strong><br>+91 62383 53342</div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                            <div><strong>Email</strong><br>Latheef@myotograf.com</div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <div><strong>India Office</strong><br>Shop No. 1, George Town,<br>Parry's, Chennai - 600 001
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-side">
+                    <form id="quote-form">
+                        <h3 class="form-title">Request a Quote</h3>
+                        <div class="form-row">
+                            <div class="form-group"><label for="f-name">Full Name</label><input type="text" id="f-name"
+                                    placeholder="John Doe" required></div>
+                            <div class="form-group"><label for="f-email">Email</label><input type="email" id="f-email"
+                                    placeholder="john@example.com" required></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group"><label for="f-phone">Phone</label><input type="tel" id="f-phone"
+                                    placeholder="+91 62383 53342"></div>
+                            <div class="form-group">
+                                <label for="f-service">Product Interest</label>
+                                <select id="f-service">
+                                    <option value="" disabled selected>Select product</option>
+                                    <option>Penta Guard PPF (5yr)</option>
+                                    <option>Hepta Guard PPF (7yr)</option>
+                                    <option>Octa Guard PPF (8yr)</option>
+                                    <option>Deca Guard PPF (10yr)</option>
+                                    <option>Cera Guard Coating (2yr)</option>
+                                    <option>Graph Guard Coating (3yr)</option>
+                                    <option>Boro Guard Coating (4yr)</option>
+                                    <option>Vinyl Dip</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group"><label for="f-vehicle">Vehicle Details</label><input type="text"
+                                id="f-vehicle" placeholder="e.g. BMW M4, Tesla Model S"></div>
+                        <div class="form-group"><label for="f-msg">Message</label><textarea id="f-msg"
+                                placeholder="Tell us about your requirements..." rows="3"></textarea></div>
+                        <button type="submit" class="form-submit">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PRODUCT PAGES (Hidden, shown via JS) ==================== -->
+    <div id="product-overlay" class="product-overlay">
+        <div class="product-overlay-inner">
+            <button class="product-close" id="product-close">✕</button>
+            <div class="product-overlay-content" id="product-overlay-content">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <svg viewBox="0 0 320 40" fill="currentColor" class="footer-logo-svg">
+                        <circle cx="18" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" />
+                        <circle cx="18" cy="20" r="5" fill="currentColor" />
+                        <rect x="42" y="4" width="3.5" height="32" rx="0.5" />
+                        <rect x="33" y="4" width="22" height="3.5" rx="0.5" />
+                        <circle cx="73" cy="20" r="16" fill="none" stroke="currentColor" stroke-width="3" />
+                        <circle cx="73" cy="20" r="5" fill="currentColor" />
+                        <path
+                            d="M108,12 A16,16 0 1,0 108,28 L108,22 L98,22 L98,25.5 L104.5,25.5 A12.5,12.5 0 1,1 104.5,14.5 L107,9"
+                            fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                        <rect x="120" y="4" width="3.5" height="32" rx="0.5" />
+                        <path d="M123.5,4 L134,4 A9,9 0 0,1 134,22 L123.5,22" fill="none" stroke="currentColor"
+                            stroke-width="3" />
+                        <line x1="130" y1="20" x2="140" y2="36" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" />
+                        <path d="M150,36 L163,4 L176,36" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <rect x="184" y="4" width="3.5" height="32" rx="0.5" />
+                        <rect x="184" y="4" width="20" height="3.5" rx="0.5" />
+                        <rect x="184" y="18" width="16" height="3" rx="0.5" />
+                    </svg>
+                    <p class="footer-tagline-text">Make Your Mark.</p>
+                    <p class="footer-tagline">Pioneers in automotive styling, protection and detailing. Partnering with
+                        excellence since our founding in Hong Kong.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products-ppf">PPF Products</a></li>
+                        <li><a href="#products-coating">Coatings</a></li>
+                        <li><a href="#ewarranty">E-Warranty</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-locations">
+                    <h4>Our Locations</h4>
+                    <div class="location-item">
+                        <div class="location-label">India</div>
+                        <div class="location-address">Shop No. 1, George Town,<br>Parry's, Chennai - 600 001</div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-label">Hong Kong</div>
+                        <div class="location-address">26389/23 Fa Yuen St,<br>Mong Kok</div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-label">China</div>
+                        <div class="location-address">No. 21 Heping North Road,<br>Changzhou, Jiangsu</div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-label">South Korea</div>
+                        <div class="location-address">307 DB Center, Jeonju-si,<br>Jeollabuk-do</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">OTOGRAF © 2026. All rights reserved.</div>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg></a>
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" />
+                            <circle cx="12" cy="12" r="5" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg></a>
+                    <a href="#" aria-label="Twitter/X"><svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SUPERCAR SCROLL PROGRESS 🏎️🔥 ==================== -->
+    <div id="scroll-progress">
+        <div class="scroll-track">
+            <div class="scroll-flame-trail"></div>
+            <div class="scroll-car" id="scroll-car">
+                <svg viewBox="0 0 120 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8 32 L12 32 L14 26 L22 22 L32 16 L44 12 L58 10 L72 10 L84 12 L92 16 L98 20 L104 24 L108 28 L110 32 L112 32"
+                        fill="var(--accent)" opacity="0.9" />
+                    <path d="M46 12.5 L58 10.5 L72 10.5 L82 13 L76 20 L48 20 Z" fill="rgba(255,255,255,0.08)" />
+                    <line x1="18" y1="24" x2="106" y2="24" stroke="var(--accent-dark)" stroke-width="0.5"
+                        opacity="0.5" />
+                    <ellipse cx="14" cy="27" rx="2" ry="1.5" fill="var(--accent-light)" opacity="0.8" />
+                    <rect x="108" y="26" width="3" height="4" rx="0.5" fill="var(--flame-red)" opacity="0.9" />
+                    <circle cx="32" cy="34" r="8" fill="#0a0a0a" stroke="var(--accent-dark)" stroke-width="1" />
+                    <circle cx="32" cy="34" r="4.5" fill="#1a1a1a" />
+                    <circle cx="32" cy="34" r="2" fill="var(--accent)" opacity="0.4" />
+                    <circle cx="92" cy="34" r="8" fill="#0a0a0a" stroke="var(--accent-dark)" stroke-width="1" />
+                    <circle cx="92" cy="34" r="4.5" fill="#1a1a1a" />
+                    <circle cx="92" cy="34" r="2" fill="var(--accent)" opacity="0.4" />
+                    <path d="M98 14 L104 12 L104 16 Z" fill="var(--accent)" opacity="0.6" />
+                </svg>
+                <div class="exhaust-particle"></div>
+                <div class="exhaust-particle"></div>
+                <div class="exhaust-particle"></div>
+                <div class="exhaust-particle"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
